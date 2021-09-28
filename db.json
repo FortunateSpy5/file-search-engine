@@ -1,0 +1,98 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"username": "admin",
+			"password": "admin",
+			"permissions": {
+				"search": true,
+				"delete": true,
+				"drives": ["C", "D"]
+			}
+		},
+		{
+			"id": 2,
+			"username": "test2",
+			"password": "test",
+			"permissions": {
+				"search": true,
+				"delete": false,
+				"drives": ["C", "D"]
+			}
+		}
+	],
+	"history": [
+		{
+			"drive": "C",
+			"query": "random",
+			"results": [
+				"C:\\Users\\msoum\\Desktop\\NIIT\\Python July\\Day 15\\Decision_Tree_Random_Forest.ipynb",
+				"C:\\Users\\msoum\\Desktop\\NIIT\\Python July\\Day 15\\Decision_Tree_Random_Forest.pdf",
+				"C:\\Users\\msoum\\Desktop\\NIIT\\Python July\\Day 15\\.ipynb_checkpoints\\Decision_Tree_Random_Forest-checkpoint.ipynb",
+				"C:\\Users\\msoum\\Desktop\\resources\\Decision_Trees_Random_Forest.pdf",
+				"C:\\Users\\msoum\\Desktop\\resources\\random forest.png"
+			],
+			"records": 920,
+			"matches": 5,
+			"id": 1
+		}
+	],
+	"errors": [
+		{
+			"timestamp": "2018-09-29 01:59:55.802578",
+			"user": "admin",
+			"action": "login",
+			"message": "testing",
+			"status": "unresolved",
+			"id": 1
+		},
+		{
+			"timestamp": "2021-09-29 02:00:28.814731",
+			"user": "test2",
+			"action": "login",
+			"message": "testing",
+			"status": "test",
+			"id": 2
+		},
+		{
+			"timestamp": "2021-09-29 02:31:20.645768",
+			"user": "admin",
+			"action": "transaction menu",
+			"message": "Testing error",
+			"status": "unresolved",
+			"id": 3
+		}
+	],
+	"transactions": [
+		{
+			"id": 1,
+			"timestamp": "2018-09-29 01:59:55.802578",
+			"user": "admin",
+			"action": "Add User"
+		},
+		{
+			"timestamp": "2021-09-29 02:21:48.116249",
+			"user": "admin",
+			"action": "Login",
+			"id": 2
+		},
+		{
+			"timestamp": "2021-09-29 02:23:40.499167",
+			"user": "admin",
+			"action": "Login",
+			"id": 3
+		},
+		{
+			"timestamp": "2021-09-29 02:30:48.643834",
+			"user": "admin",
+			"action": "Login",
+			"id": 4
+		},
+		{
+			"timestamp": "2021-09-29 02:31:22.735799",
+			"user": "admin",
+			"action": "Post Error",
+			"id": 5
+		}
+	]
+}
